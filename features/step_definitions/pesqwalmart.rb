@@ -7,7 +7,7 @@ Quando(/^pesquiso por apple$/) do
 	fill_in('ft', :with => 'apple')
 	find('li.item.autocomplete-suggestion', :text => 'celular apple').click
 	click_button('Procurar')
-	sleep 5
+	sleep 5 
  end
 
 Então(/^visualizo os produtos da apple$/) do
